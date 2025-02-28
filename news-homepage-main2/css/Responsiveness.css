@@ -1,0 +1,153 @@
+
+/* For Mobile Screen */
+@media (max-width:375px) {
+
+
+    .link{
+      position: fixed;
+       background-color:white;
+       z-index: 999;
+       right:0;
+       background-attachment:scroll;
+       top: 0;
+       width: 410px;
+       height: 100vh;
+       transform: translateX(450px);
+       transition: 1s;
+       background: linear-gradient( to right, rgba(0, 0, 0, 0.345) 30% , white 20%);
+    
+    }
+
+    .open-menue{
+      transform: translateX(50px);
+    }
+
+    .close-menue{
+      transform: translateX(350px);
+    }
+
+
+     ul{
+       
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        transform: translateX(150px) translateY(100px);
+        
+        
+     }
+
+     ul li a{
+      color: black;
+     }
+
+     ul li img{
+      transform: translateX(-400px);
+  }
+
+  .icon{
+   display: flex;
+   transform: translateX(290px) translateY(70px);
+   cursor: pointer;
+  }
+
+
+  .item1 img{
+   width: 300px;
+   
+ }
+
+
+
+
+
+
+
+
+ .item5 .content .block p{
+   font-size: 14px;
+ }
+
+ .item5 .container{
+  width: 100vw;
+ }
+
+ .item5 .container,.wraper{
+   display: flex;
+   gap: 18px;
+ }
+ 
+
+
+
+
+ .item5 .container{
+ 
+   transform: translateY(150px);
+ }
+
+
+ .item2{
+   transform: translateY(500px);
+ }
+
+
+ .item2 p{
+   font-size: 13px;
+  
+ }
+
+
+
+ .item3{
+   transform: translateY(-500px);
+   width: 500px;
+ 
+ }
+
+ .item3 h2{
+   font-size: 40px;
+ }
+
+ .item4{
+   transform: translateY(-500px);
+   line-height: 10px;
+ }.item4 p{
+   line-height: 30px;
+   font-size: 12px;
+ }
+
+ .container{
+   
+  transform: translateX(10px);
+   
+ }
+
+ .logo{
+   transform: translateX(50px) translateY(40px);
+ }
+
+ .link img{
+   display: flex;
+   padding: 10px;
+   transform: translateX(280px) translateY(30px);
+   cursor: pointer;
+   transition: 1s;
+ } 
+ 
+
+
+ .heading2 h2{
+   transform: translateX(20px);
+ }
+
+ .heading3 h2{
+   transform: translateX(20px);
+ }
+ hr{
+   width: 250px;
+   transform: translateX(20px);
+ }
+ 
+ 
+}
